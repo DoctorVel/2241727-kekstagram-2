@@ -18,7 +18,6 @@ const scaleValueMin = 25;
 const scaleValueMax = 100;
 
 const trimFieldOnChange = (ev) => trimField(ev.target);
-//const stopPropagation = (ev) => ev.stopPropagation();
 
 function submitForm(ev) {
   ev.preventDefault();
